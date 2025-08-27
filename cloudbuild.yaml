@@ -8,7 +8,7 @@ steps:
   args: ['push', 'gcr.io/$PROJECT_ID/gcp-devops-dev:$SHORT_SHA']
   id: "push image"
   # Deploy container image to GKE
-- name: 'gcr.io/cloud-builders/gke-dev'
+- name: 'gcr.io/cloud-builders/gke-deploy'
   args:
   - run
   - --filename=gke.yaml
