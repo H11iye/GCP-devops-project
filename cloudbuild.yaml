@@ -14,7 +14,7 @@ steps:
   - --filename=gke.yaml
   - --image='gcr.io/$PROJECT_ID/gcp-devops-dev:$SHORT_SHA'
   - --location=us-central1
-  - --cluster=gcp-devops-project
+  - --cluster=gcp-devops-project-development
   - --namespace=gcp-devops-dev
 
 options:
