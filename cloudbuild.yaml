@@ -15,5 +15,5 @@ steps:
   - --cluster=gke-devops-project
   - --namespace=gcp-devops-prod
 
-# options:
-#   logging: CLOUD_LOGGING_ONLY # Use Cloud Logging for build logs 
+options:
+  logging: CLOUD_LOGGING_ONLY # Use Cloud Logging for build logs 
