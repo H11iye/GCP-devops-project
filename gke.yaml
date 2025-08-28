@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: gcp-devops-gke
-        image: gcr.io/custom-cable-466509-g1/gcp-devops-dev
+        image: gcr.io/custom-cable-466509-g1/gcp-devops-dev:latest
         ports:
         - containerPort: 5050
         env:
