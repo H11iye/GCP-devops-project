@@ -14,7 +14,8 @@ steps:
   - --location=us-central1
   - --cluster=gcp-devops-project
   - --namespace=gcp-devops-dev
-timeout: 600s # wait up to 10 minutes for the deployment to complete
+
 
 options:
   logging: CLOUD_LOGGING_ONLY # Use Cloud Logging for build logs 
+timeout: 600s # wait up to 10 minutes for the deployment to complete
